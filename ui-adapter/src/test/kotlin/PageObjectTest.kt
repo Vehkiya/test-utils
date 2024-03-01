@@ -7,10 +7,11 @@ class PageObjectTest {
 
     @Test
     fun testInit() {
-        println("bla")
         val browser: Browser = BrowserFactory.createBrowser(DriverType.SELENIUM)
+        browser.launch()
         browser.navigateTo("https://google.com")
         println("done")
+        Thread.sleep(3000)
         browser.close()
     }
 }
