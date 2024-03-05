@@ -1,8 +1,10 @@
-package ui.adapter.browser
+package ui.adapter.selenium.browser
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
+import ui.adapter.Browser
+import ui.adapter.Tab
 
 class SeleniumBrowser : Browser {
     private lateinit var driver: WebDriver

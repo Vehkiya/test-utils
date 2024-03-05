@@ -1,8 +1,10 @@
-package ui.adapter.browser
+package ui.adapter.playwright.browser
 
 import com.microsoft.playwright.BrowserType
 import com.microsoft.playwright.Page
 import com.microsoft.playwright.Playwright
+import ui.adapter.Browser
+import ui.adapter.Tab
 
 class PlaywrightBrowser : Browser {
     private lateinit var browser: com.microsoft.playwright.Browser

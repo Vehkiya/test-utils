@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test
+import ui.adapter.Browser
 import ui.adapter.BrowserFactory
 import ui.adapter.BrowserFactory.BrowserFactory.DriverType
-import ui.adapter.browser.Browser
 
 class PageObjectTest {
 
